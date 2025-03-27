@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历 - 牛绪彪</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .resume {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .resume table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .resume th, .resume td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .resume th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        /* 添加的图标样式 */
+        .job-icon::before { content: "💼 "; }  /* 求职意向 */
+        .cert-icon::before { content: "📜 "; } /* 技能证书 */
+        .hobby-icon::before { content: "★ "; } /* 个人爱好 */
+        
+        .photo {
+            width: 120px;
+            height: 160px;
+            border: 2px solid #333;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .self-evaluation {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume">
+    <h1 style="text-align: center; margin-bottom: 20px;">个人简历</h1>
+
+    <!-- 基本信息（无图标） -->
+    <table>
+        <tr>
+            <th colspan="4">基本信息</th>
+        </tr>
+        <tr>
+            <td>姓名</td>
+            <td>牛绪彪</td>
+            <td>性别</td>
+            <td>男</td>
+        </tr>
+        <tr>
+            <td>年龄</td>
+            <td>20</td>
+            <td>籍贯</td>
+            <td>山东</td>
+        </tr>
+        <tr>
+            <td>联系电话</td>
+            <td>176-1608-8708</td>
+            <td>电子邮箱</td>
+            <td>nxb_iuuiao@outlook.com</td>
+        </tr>
+        <tr>
+            <td>学历</td>
+            <td>本科</td>
+            <td>健康状况</td>
+            <td>良好</td>
+        </tr>
+        <tr>
+            <td>婚姻状况</td>
+            <td>未婚</td>
+            <td>照片</td>
+            <td><img src="1.jpg" alt="个人照片" class="photo"></td>
+        </tr>
+    </table>
+
+    <!-- 求职意向（加图标） -->
+    <table>
+        <tr>
+            <th colspan="2" class="job-icon">求职意向</th>
+        </tr>
+        <tr>
+            <td>求职岗位</td>
+            <td>前端开发工程师</td>
+        </tr>
+        <tr>
+            <td>专业</td>
+            <td>软件工程</td>
+        </tr>
+        <tr>
+            <td>毕业院校</td>
+            <td>烟台理工学院</td>
+        </tr>
+    </table>
+
+    <!-- 技能证书（加图标） -->
+    <table>
+        <tr>
+            <th class="cert-icon">技能证书</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>英语六级证书</li>
+                    <li>计算机等级考试三级证书</li>
+                    <li>前端开发工程师认证</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <!-- 个人特长与爱好（加图标） -->
+    <table>
+        <tr>
+            <th class="hobby-icon">个人特长与爱好</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>擅长JavaScript、HTML、CSS</li>
+                    <li>热爱篮球、跑步</li>
+                    <li>喜欢阅读技术书籍</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <!-- 项目经历（无图标） -->
+    <table>
+        <tr>
+            <th>项目经历</th>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>项目名称：</strong>在线教育平台开发</p>
+                <p><strong>项目描述：</strong>负责前端页面开发，使用Vue.js框架实现动态交互。</p>
+                <p><strong>项目时间：</strong>2022年3月 - 2022年8月</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>项目名称：</strong>企业官网重构</p>
+                <p><strong>项目描述：</strong>使用HTML5和CSS3进行页面重构，优化用户体验。</p>
+                <p><strong>项目时间：</strong>2021年9月 - 2021年12月</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- 自我评价（扩充至200字以上） -->
+    <div class="section-title">自我评价</div>
+    <div class="self-evaluation">
+        <p>本人性格开朗乐观，积极进取，具备良好的沟通表达能力和团队协作精神。作为软件工程专业的本科毕业生，我系统学习了数据结构、算法、计算机网络等计算机核心课程，掌握了扎实的编程理论基础。在校期间，我特别注重前端技术的学习和实践，熟练掌握了HTML5、CSS3、JavaScript等前端开发技术，并对Vue.js框架有深入的理解和应用经验。</p>
+        
+        <p>通过参与"在线教育平台开发"和"企业官网重构"等项目实践，我积累了丰富的实战经验，培养了良好的代码规范和工程化思维。在项目开发过程中，我能够快速理解需求，独立解决问题，并与团队成员高效协作。我特别注重用户体验和界面细节，能够将设计稿精准转化为高质量的网页产品。</p>
+        
+        <p>我热爱编程和技术学习，保持着持续学习的习惯，经常通过技术博客、开源社区等渠道了解行业最新动态。业余时间我喜欢打篮球和跑步，这些运动培养了我的团队意识和坚韧品质。我相信自己扎实的技术基础、良好的学习能力和积极的工作态度，能够胜任前端开发工程师的工作，并期待在贵公司发挥我的专业所长，与团队共同成长。</p>
+    </div>
+</div>
+
+</body>
+</html>
